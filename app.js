@@ -88,7 +88,7 @@ app.post("/jobs", function (req, res) {
      const results_per_page = 50;
      let ct = countries[country];
      const url = `https://api.adzuna.com/v1/api/jobs/${ct}/search/1?results_per_page=${results_per_page}&app_id=${api_id}&app_key=${api_key}&what=${category}&where=${location}`;
-
+console.log(url);
      https.get(url, function (response) {
           console.log(response.statusCode);
           var temp = [];
@@ -100,7 +100,7 @@ app.post("/jobs", function (req, res) {
 
           response.on("end", function () {
                let jobInfo = JSON.parse(stockData);
-             
+            
                if (response.statusCode == 200)
                     res.render("jobs", { jobInfo: jobInfo.results });
                else
@@ -179,6 +179,7 @@ app.post("/about", function (req, res) {
 app.post("/contact", function (req, res) {
      res.render("contact");
 });
+
 
 
 app.listen(3000, function () {
