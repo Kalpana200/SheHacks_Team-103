@@ -7,16 +7,16 @@
 <% for(var i=0;i<scholar.length;i+=5) { %>
     <div class="card text-center custom-card-dm sirj-card">
       <div class="card-header">
-       <h4 style="font-size:30px; padding-top:10px;"> <%= scholar[i] %> </h4>
+       <h4 class="sirj-heading"> <%= scholar[i] %> </h4>
       </div>
       <div class="card-body">
-       <h5 style="font-size:20px; padding-left:40px; padding-right:40px;">Timeline : <%=scholar[i+1]%> </h5>
-       <h5 style="font-size:20px; padding-left:40px; padding-right:40px;">Eligiblity : <%=scholar[i+2]%> </h5>
+       <h4 class="sirj-content">Timeline : <%=scholar[i+1]%> </h4>
+       <h4 class="sirj-content">Eligiblity : <%=scholar[i+2]%> </h4>
 
       </div>
       <div class="card-footer" style="padding-bottom:10px;">
-        <a class="btn btn-lg btn-light custom-btn" style="margin-right:5px; href="<%= scholar[i+3] %>" target="_blank">Visit</a>
-        <a href="<%= scholar[i+4] %>" class="btn btn-lg btn-light custom-btn" target="_blank"><i class="fab fa-youtube"></i> How to Apply</a>
+        <a class="btn btn-md btn-light custom-btn sir-btn" style="margin-right:5px;" href="<%= scholar[i+3] %>" target="_blank">Visit</a>
+        <a href="<%= scholar[i+4] %>" class="btn btn-md btn-light custom-btn " target="_blank"><i class="fab fa-youtube"></i> How to Apply</a>
       </div>
     </div>
     <% } %>
