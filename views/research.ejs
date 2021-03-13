@@ -4,15 +4,15 @@
 <% for(var i=0;i<research.length;i+=4) { %>
     <div class="card text-center custom-card-dm sirj-card">
       <div class="card-header">
-       <h4 style="font-size:30px; padding-top:10px;"> <%= research[i] %> </h4>
+       <h4 class="sirj-heading"> <%= research[i] %> </h4>
       </div>
       <div class="card-body">
        
-<p style="font-size:20px; padding-left:40px; padding-right:40px;">  <%= research[i+1] %>  </p>
+<p class="sirj-content">  <%= research[i+1] %>  </p>
       </div>
       <div class="card-footer" style="padding-bottom:10px;">
-        <a class="btn btn-lg btn-light custom-btn" style="margin-right:5px;" href="<%= research[i+2] %>" target="_blank">Visit</a>
-        <a href="<%= research[i+3] %>" class="btn btn-lg btn-light custom-btn" target="_blank"><i class="fab fa-youtube"></i> How to Apply</a>
+        <a class="btn btn-md btn-light custom-btn sir-btn" style="margin-right:5px;" href="<%= research[i+2] %>" target="_blank">Visit</a>
+        <a href="<%= research[i+3] %>" class="btn btn-md btn-light custom-btn" target="_blank"><i class="fab fa-youtube"></i> How to Apply</a>
       </div>
     </div>
     <% } %>
