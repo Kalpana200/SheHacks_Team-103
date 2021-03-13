@@ -1,0 +1,25 @@
+<%- include("header"); -%>
+
+<h1 class="text-dm">Internships and Programs</h1>
+
+<% for(var i=0;i<intern.length;i+=5) { %>
+    <div class="card text-center custom-card-dm sirj-card">
+      <div class="card-header">
+       <h4 style="font-size:30px; padding-top:10px;"> <%= intern[i] %> </h4>
+      </div>
+      <div class="card-body">
+        <h5 style="font-size:20px; padding-left:40px; padding-right:40px;">Timeline : <%=intern[i+1]%> </h5>
+       <h5 style="font-size:20px; padding-left:40px; padding-right:40px;">Eligiblity : <%=intern[i+2]%> </h5>
+
+      </div>
+      <div class="card-footer" style="padding-bottom:10px;">
+        <a class="btn btn-lg btn-light custom-btn" style="margin-right:5px;" href="<%= intern[i+3] %>" target="_blank">Visit</a>
+        <a href="<%= intern[i+4] %>" class="btn btn-lg btn-light custom-btn" target="_blank"><i class="fab fa-youtube"></i> How to Apply</a>
+      </div>
+     
+    </div>
+    <% } %>
+
+
+
+<%- include("footer"); -%>
