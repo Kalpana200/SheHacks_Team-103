@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MissTech </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://kit.fontawesome.com/a16b9739a3.js" crossorigin="anonymous"></script>
+
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-custom">
+        <div class="container">
+            <a class="navbar-brand web-name" href="#">
+                <img src="images/white.png" alt="" width="50" height="50" class="d-inline-block align-top logo-dm logo">
+                MissTech
+               </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-content" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <form action="/home" method="POST">
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-lg" href="">Home</button>
+                        </li>
+                    </form>
+
+                   <form action="/blog" method="POST">
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-lg" aria-current="page">Blogs</button>
+                        </li>
+                    </form>
+                    <form action="/scholarship" method="POST">
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-lg">Scholarships</button>
+                        </li>
+                    </form>
+                    <form action="/internship" method="POST">
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-lg">Internships</button>
+                        </li>
+                    </form>
+                    <form action="/research" method="POST">
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-lg">Research</button>
+                        </li>
+                    </form>
+                    <form action="/jobSearch" method="POST">
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-lg">Jobs</button>
+                    </li>
+                </form>
+                <form action="/about" method="POST">
+
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-lg" href="/about">About</button>
+                    </li>
+                </form>
+                <form action="/contact" method="POST">
+
+                    <li class="nav-item">
+                        <button class="nav-link btn btn-lg" href="">Contact</button>
+                    </li>
+                </form>
+
+
+                </ul>
+
+
+            </div>
+        </div>
+      
+    </nav>
+    <div class="mode container">
+        <label class="switch">
+            <input type="checkbox" class="input-class" onclick="myFunction()">
+            <span class="slider round emoji-slider">
+                🌞
+                🌜
+            </span>
+        </label>
+    </div>
