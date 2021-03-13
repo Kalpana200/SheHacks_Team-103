@@ -90,6 +90,26 @@ body{
   background-color: #121212;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.nav-link{
+  transition: none;
+}
+.btn:active,
+ .btn:focus,
+ .btn.active {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+
 
 .input-class{
   width:50%;
@@ -112,7 +132,7 @@ body{
 .text-dm{
   text-align: center;
   color: #bb86fc;
-  font-size:3.5vw;
+  font-size: 43px;
   font-weight: bold;
   font-family: 'Kanit', sans-serif;
   padding-top : 15px;
@@ -129,6 +149,11 @@ body{
   font-size : 2.2vw;
   text-align: center;
   font-weight: 600;
+}
+
+.player{
+  width: 400px;
+  height: 350px;
 }
 
 .custom-card-dm{
@@ -157,7 +182,7 @@ body{
 .jobsearch{
   z-index : 1;
   float : right;
-  margin-top : 40px;
+  margin-top : 20px;
   padding-right : 100px;
  
 }
@@ -172,12 +197,20 @@ body{
   margin-top : 20px;
 }
 
+.sirj-heading{
+  font-size:30px; 
+  padding-top:10px;
+}
 
+.sirj-content{
+  font-size:20px; 
+  padding-left:40px; 
+  padding-right:40px;
+}
 
 input[type=text], select {
   width: 100%;
-  /* background-color: #222; */
-  padding: 12px 20px;
+  padding: 9px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 2px solid black;
@@ -209,7 +242,7 @@ input[type=text], select {
 
 .input-text{
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 2px solid black;
 }
 
 
@@ -279,6 +312,7 @@ input[type=text], select {
 
 .blog-card{
   margin-top:70px;
+  border : 2px solid black;
 }
 
 .publish-btn{
@@ -287,9 +321,9 @@ input[type=text], select {
 
 .compose{
   margin : auto;
-  height : 500px;
+  height : 700px;
   width : 55%;
-  background-color: white;
+  background: linear-gradient(110deg,  #d3e0ea 60%, #f4f9f9 40%);;
   border-color: black;
   border-radius : 4px;
   z-index: 1;
@@ -341,14 +375,77 @@ input[type=text], select {
 .quote-dm{
   color:white;
   text-align: center;
+  font-size: 1.4vw;
 }
 
 .quote-lm{
   color : black;
   text-align: center;
   font-weight: 500;
+  font-size: 1.4vw;
 }
 
 .sirj-card{
   margin-top : 30px;
+}
+
+.compose-dm{
+  color:white;
+  font-size:3.5vw;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  padding-top : 15px;
+  text-align: center;
+}
+
+.compose-lm{
+  color:black;
+  font-size:3.5vw;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  padding-top : 15px;
+  text-align: center;
+}
+
+
+
+@media (max-width:550px){
+  .player{
+      width : 300px;
+      height : 200px;
+  }
+}
+
+@media (max-width:476px){
+  .sir-btn{
+    margin-bottom : 15px;
+  }
+}
+
+@media (max-width:600px){
+  .text-dm{
+    font-size: 30px;
+  }
+
+  .text-lm{
+    font-size: 30px;
+  }
+
+  .sirj-heading{
+    font-size:20px;
+  }
+
+  .sirj-content{
+    font-size:15px; 
+    padding-left:40px; 
+    padding-right:40px;
+  }
+
+}
+
+@media (max-width:800px){
+
+  .my-img{
+    width : 200px;
+  }
 }
