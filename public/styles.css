@@ -75,3 +75,280 @@ body{
 .light-mode {
     background-color: #f8f9fa;
   }
+
+  .web-name{
+    font-family: 'Kanit', sans-serif;
+    font-size : 30px;
+  }
+
+.nav-content{
+    text-align: right;
+    padding-right:0px;
+}
+
+.nav-custom{
+  background-color: #121212;
+}
+
+
+.input-class{
+  width:50%;
+}
+
+.player{
+  margin : auto;
+}
+
+.text-lm{
+  text-align: center;
+  color: #214151;
+  font-size:3.5vw;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  padding-top : 15px;
+
+}
+
+.text-dm{
+  text-align: center;
+  color: #bb86fc;
+  font-size:3.5vw;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  padding-top : 15px;
+}
+
+.content-dm{
+  color:#03dac6;
+  font-size : 2.2vw;
+  text-align: center;
+}
+
+.content-lm{
+  color: #025955;
+  font-size : 2.2vw;
+  text-align: center;
+  font-weight: 600;
+}
+
+.custom-card-dm{
+  background-color: transparent;
+  border : 1px solid #bb86fc;
+  width : 50%;
+  margin : auto;
+  margin-bottom : 20px;
+  color : white;
+}
+
+.custom-card-lm{
+  background-color: transparent;
+  border : 2px solid #214151;
+  width : 50%;
+  margin : auto;
+  margin-bottom : 20px;
+  color : black;
+}
+
+.job-img{
+  position: absolute;
+  z-index : -1;
+}
+
+.jobsearch{
+  z-index : 1;
+  float : right;
+  margin-top : 40px;
+  padding-right : 100px;
+ 
+}
+
+.jobsearch-title{
+  text-align: center;
+}
+
+.jobsearch-title1{
+  text-align: center;
+  font-weight: bold;
+  margin-top : 20px;
+}
+
+
+
+input[type=text], select {
+  width: 100%;
+  /* background-color: #222; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-img{
+  position : absolute;
+  z-index: -1;
+}
+
+.contactUs{
+  z-index: 1;
+  float: right;
+  padding-right:50px;
+  padding-top:20px;
+}
+
+.contact-heading{
+  text-align: center;
+}
+
+.label-text{
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+}
+
+.input-text{
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+
+.dev-heading{
+  
+  text-align: center;
+  font-size:50px;
+  margin-bottom:30px;
+}
+
+.team-card{
+  margin:20px;
+  background-color: transparent;
+  border:none;
+}
+
+.my-img{
+  width:300px;
+  margin:auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+}
+
+.middle {
+ transition: .5s ease;
+ opacity: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ text-align: center;
+}
+.team-card:hover .my-img {
+ opacity: 0.3;
+
+}
+
+.team-card:hover .middle {
+ opacity: 1;
+}
+
+#developers{
+  margin-bottom:20px;
+}
+
+.my-name{
+  color: white;
+  font-size:30px;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+
+.my-icon{
+  margin:12px;
+  color:white;
+  font-size:30px;
+}
+
+.vacancy{
+  padding-bottom: 30px;
+}
+
+
+.blog-card{
+  margin-top:70px;
+}
+
+.publish-btn{
+  margin-top : 30px;
+}
+
+.compose{
+  margin : auto;
+  height : 500px;
+  width : 55%;
+  background-color: white;
+  border-color: black;
+  border-radius : 4px;
+  z-index: 1;
+}
+
+.post-class{
+  border : 2px solid black;
+  border-radius: 4px;
+}
+
+.bg-img{
+  position : absolute;
+  z-index : -1;
+}
+
+.blog-title{
+  font-weight: bold;
+  font-size : 3.5vw;
+}
+
+.blog-writer{
+  font-size: 2vw;
+}
+
+.single-blog{
+  padding-top : 50px;
+  padding-left : 30px;
+}
+
+.blog-content{
+  font-size:1.25vw;
+}
+
+.about-text-dm{
+  font-size:20px;
+  color: white;
+  text-align: center;
+  padding:35px;
+}
+
+.we-text-dm{
+  color:white;
+}
+
+.we-text-lm{
+  color:black;
+}
+
+.quote-dm{
+  color:white;
+  text-align: center;
+}
+
+.quote-lm{
+  color : black;
+  text-align: center;
+  font-weight: 500;
+}
+
+.sirj-card{
+  margin-top : 30px;
+}
